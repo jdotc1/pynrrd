@@ -1,3 +1,13 @@
+.. rubric:: About this fork
+
+This is a development fork of `mhe/pynrrd <https://github.com/mhe/pynrrd>`__, the Python reader and writer for NRRD files. It connects image arrays and NRRD headers with NumPy, making it useful for research scripts that exchange multidimensional image data with tools using the NRRD format.
+
+Fork work is tracked in `upstream PR #173 <https://github.com/mhe/pynrrd/pull/173>`__, proposing validation of nonpositive image dimensions before data access. It was open on 17 October 2026 and remains on the linked feature branch.
+
+Start with the `official documentation <https://pynrrd.readthedocs.io/>`__ and the installation and read/write example preserved below. `Compare the default branch with upstream <https://github.com/jdotc1/pynrrd/compare/mhe:master...jdotc1:master>`__ to inspect its current development base. The upstream README retains requirements, contributor instructions, and the license link.
+
+.. rubric:: Upstream README
+
 .. image:: https://travis-ci.org/mhe/pynrrd.svg?branch=master
     :target: https://travis-ci.org/mhe/pynrrd
     :alt: Build Status
